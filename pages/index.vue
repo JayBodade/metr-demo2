@@ -55,28 +55,28 @@
             <v-tabs-window-item :value="1">
                 <v-row class="pa-4" >
                     <v-col cols="4"  v-for="project in allprojects" :key="project._id" >
-                        <NuxtLink :to="`/project/${project._id}`"> <product :projectItem="project"> </product></NuxtLink>
+                        <NuxtLink :to="`/proj/${project._id}`"> <product :projectItem="project"> </product></NuxtLink>
                     </v-col>
                 </v-row>
             </v-tabs-window-item>
             <v-tabs-window-item :value="2">
                 <v-row class="pa-4" >
                 <v-col cols="4" v-for="project in interiorProjects" :key="project._id" >
-                    <NuxtLink :to="`/project/${project._id}`"> <product :projectItem="project"> </product></NuxtLink>
+                    <NuxtLink :to="`/proj/${project._id}`"> <product :projectItem="project"> </product></NuxtLink>
                     </v-col>
                 </v-row>
             </v-tabs-window-item>
             <v-tabs-window-item :value="3">
                 <v-row class="pa-4" >
                 <v-col cols="4" v-for="project in landScapeProjects" :key="project._id" >
-                    <NuxtLink :to="`/project/${project._id}`"> <product :projectItem="project"> </product></NuxtLink>
+                    <NuxtLink :to="`/proj/${project._id}`"> <product :projectItem="project"> </product></NuxtLink>
                     </v-col>
                     </v-row>
             </v-tabs-window-item>
             <v-tabs-window-item :value="4">
                 <v-row class="pa-4" >
                 <v-col cols="4" v-for="project in architecuralProjects" :key="project._id" >
-                    <NuxtLink :to="`/project/${project._id}`"> <product :projectItem="project"> </product></NuxtLink>
+                    <NuxtLink :to="`/proj/${project._id}`"> <product :projectItem="project"> </product></NuxtLink>
                     </v-col>
                     </v-row>
             </v-tabs-window-item>

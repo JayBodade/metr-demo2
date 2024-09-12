@@ -6,7 +6,7 @@
       v-for="project in allprojects"
       :key="project._id"
     >
-     <NuxtLink :to="`/project/${project._id}`"><product  :projectItem="project" ></product></NuxtLink> 
+     <NuxtLink :to="`/proj/${project._id}`"><product  :projectItem="project" ></product></NuxtLink> 
     </v-col>
   </v-row>
   
